@@ -1,8 +1,15 @@
 #include <stdio.h>
-int main(void) //This is the main function
+/**
+ * main 
+ *
+ * Return: 0 - Successful
+ *
+ */
+
+int main(void)
 
 {
-       	char MyStr[] = ""Programming is like building a multilingual puzzle";
-        puts(MyStr);	
+	puts("\"Programming is like building a multilingual puzzle");
+	
         return (0);
 }
