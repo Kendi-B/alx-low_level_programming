@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main-starting point
+ * main - starting point
  *
  * Return: 1, There is some error
  */
