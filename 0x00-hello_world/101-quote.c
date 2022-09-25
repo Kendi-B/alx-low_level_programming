@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - starting point
+ * main - entry point
  *
- * Return: 1, There is some error
+ * Return: 1, prints to the  error
  */
-
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
